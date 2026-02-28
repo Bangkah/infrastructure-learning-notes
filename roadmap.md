@@ -1,52 +1,28 @@
-# 🗺️ ROADMAP BELAJAR
-## Linux System Administration & Networking
+# Roadmap Belajar: Linux System Administration & Networking
+
+**Penulis:** Muhammad Dhiyaul Atha  
+**GitHub:** [github.com/Bangkah](https://github.com/Bangkah)  
+**Versi:** 1.0 | Maret 2026
 
 ---
 
-```
-╔══════════════════════════════════════════════════════════════════════════╗
-║                                                                          ║
-║    ██████╗ ██╗  ██╗██╗██╗   ██╗ █████╗ ██╗   ██╗██╗                      ║
-║    ██╔══██╗██║  ██║██║╚██╗ ██╔╝██╔══██╗██║   ██║██║                      ║
-║    ██║  ██║███████║██║ ╚████╔╝ ███████║██║   ██║██║                      ║
-║    ██║  ██║██╔══██║██║  ╚██╔╝  ██╔══██║██║   ██║██║                      ║
-║    ██████╔╝██║  ██║██║   ██║   ██║  ██║╚██████╔╝███████╗                 ║
-║    ╚═════╝ ╚═╝  ╚═╝╚═╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚══════╝                 ║
-║                                                                          ║
-║    📚 Learning Notes by Muhammad Dhiyaul Atha                            ║
-║    🌐 System Administration & Networking Journey                         ║
-║                                                                          ║
-╚══════════════════════════════════════════════════════════════════════════╝
-```
+**Tujuan:** Menguasai fundamental Operating System dan Networking untuk menjadi System Administrator atau DevOps Engineer yang kompeten.
 
 ---
 
-> **Tujuan:** Menguasai fundamental Operating System dan Networking untuk menjadi System Administrator atau DevOps Engineer yang kompeten.
+## Overview
+
+| Bagian | Topik | Estimasi |
+|--------|-------|----------|
+| I | Fundamental Operating System (Bab 1-6) | 3 minggu |
+| II | Fundamental Networking (Bab 7-11) | 2 minggu |
+| III | Integrasi OS + Networking (Bab 12-15) | 2 minggu |
+
+**Total Estimasi:** 7 minggu (dengan praktik intensif)
 
 ---
 
-## 📊 Overview
-
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                         LEARNING PATH                                   │
-├─────────────────────────────────────────────────────────────────────────┤
-│                                                                         │
-│   BAGIAN I                BAGIAN II               BAGIAN III            │
-│   Fundamental OS          Fundamental Net         Integrasi             │
-│   ┌─────────────┐        ┌─────────────┐        ┌─────────────┐         │
-│   │ Bab 1-6     │   ──►  │ Bab 7-11    │   ──►  │ Bab 12-15   │         │
-│   │ ~3 minggu   │        │ ~2 minggu   │        │ ~2 minggu   │         │
-│   └─────────────┘        └─────────────┘        └─────────────┘         │
-│                                                                         │
-│   Total Estimasi: 7 minggu (dengan praktik intensif)                    │
-│                                                                         │
-└─────────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## 📚 DAFTAR ISI
+## Daftar Isi
 
 - [Bagian I — Fundamental Operating System](#bagian-i--fundamental-operating-system)
   - [Bab 1 — Apa Itu Operating System](#bab-1--apa-itu-operating-system)
@@ -71,13 +47,13 @@
 
 # BAGIAN I — FUNDAMENTAL OPERATING SYSTEM
 
-> 🎯 **Goal:** Memahami cara kerja Operating System dari level kernel hingga user space.
+**Goal:** Memahami cara kerja Operating System dari level kernel hingga user space.
 
 ---
 
 ## Bab 1 — Apa Itu Operating System
 
-**📄 File:** [Bab1_Apa_Itu_Operating_System.md](Bab1_Apa_Itu_Operating_System.md)
+**File:** [Bab1_Apa_Itu_Operating_System.md](Bab1_Apa_Itu_Operating_System.md)
 
 | Topik | Deskripsi | Status |
 |-------|-----------|--------|
@@ -86,12 +62,12 @@
 | Cara kerja program dijalankan | Compile, link, load, execute | ⬜ |
 | System call | Interface ke kernel, syscall mechanism | ⬜ |
 
-**🔧 Tools yang dipelajari:**
+**Tools yang dipelajari:**
 - `strace` - trace system calls
 - `uname` - system information
 - `/proc` filesystem
 
-**⏱️ Estimasi waktu:** 4-5 jam
+**Estimasi waktu:** 4-5 jam
 
 ---
 
@@ -102,7 +78,7 @@
 | Filesystem Hierarchy | Standar struktur direktori Linux | ⬜ |
 | Direktori penting | Fungsi masing-masing direktori | ⬜ |
 
-**📁 Struktur Direktori:**
+**Struktur Direktori:**
 
 ```
 /
@@ -116,10 +92,10 @@
 └── dev/      → Device files
 ```
 
-**📖 Studi Kasus:**
+**Studi Kasus:**
 - Kenapa config ada di `/etc`?
 
-**⏱️ Estimasi waktu:** 3-4 jam
+**Estimasi waktu:** 3-4 jam
 
 ---
 
@@ -132,7 +108,7 @@
 | Daemon | Background processes | ⬜ |
 | Zombie Process | Orphan & zombie handling | ⬜ |
 
-**🔧 Tools yang dipelajari:**
+**Tools yang dipelajari:**
 
 | Tool | Fungsi |
 |------|--------|
@@ -142,7 +118,7 @@
 | `kill` | Send signals to process |
 | `nice` / `renice` | Process priority |
 
-**⏱️ Estimasi waktu:** 4-5 jam
+**Estimasi waktu:** 4-5 jam
 
 ---
 
@@ -157,7 +133,7 @@
 | sudo | Superuser do | ⬜ |
 | Least Privilege | Security principle | ⬜ |
 
-**📊 Permission Matrix:**
+**Permission Matrix:**
 
 ```
          Owner    Group    Others
@@ -170,7 +146,7 @@ Execute    1        1         1
 644:       6        4         4     (rw-r--r--)
 ```
 
-**⏱️ Estimasi waktu:** 3-4 jam
+**Estimasi waktu:** 3-4 jam
 
 ---
 
@@ -183,7 +159,7 @@ Execute    1        1         1
 | Enable/Disable | Auto-start configuration | ⬜ |
 | journalctl | System logs analysis | ⬜ |
 
-**🔧 Commands Penting:**
+**Commands Penting:**
 
 ```bash
 # Service management
@@ -200,7 +176,7 @@ journalctl -f              # follow mode
 journalctl --since "1 hour ago"
 ```
 
-**⏱️ Estimasi waktu:** 3-4 jam
+**Estimasi waktu:** 3-4 jam
 
 ---
 
@@ -214,7 +190,7 @@ journalctl --since "1 hour ago"
 | ext4 | Linux filesystem | ⬜ |
 | swap | Virtual memory | ⬜ |
 
-**🔧 Commands Penting:**
+**Commands Penting:**
 
 ```bash
 df -h           # Disk free (human readable)
@@ -224,13 +200,13 @@ mount           # Show mounted filesystems
 fdisk -l        # Partition information
 ```
 
-**⏱️ Estimasi waktu:** 4-5 jam
+**Estimasi waktu:** 4-5 jam
 
 ---
 
 # BAGIAN II — FUNDAMENTAL NETWORKING
 
-> 🎯 **Goal:** Memahami konsep jaringan komputer dari physical layer hingga application layer.
+> **Goal:** Memahami konsep jaringan komputer dari physical layer hingga application layer.
 
 ---
 
@@ -242,7 +218,7 @@ fdisk -l        # Partition information
 | LAN vs WAN | Network scope | ⬜ |
 | OSI vs TCP/IP | Network models | ⬜ |
 
-**📊 Model Perbandingan:**
+**Model Perbandingan:**
 
 ```
     OSI Model              TCP/IP Model
@@ -263,7 +239,7 @@ fdisk -l        # Partition information
 └─────────────────┘    └─────────────────┘
 ```
 
-**⏱️ Estimasi waktu:** 3-4 jam
+**Estimasi waktu:** 3-4 jam
 
 ---
 
@@ -277,7 +253,7 @@ fdisk -l        # Partition information
 | Network & Broadcast | Address calculation | ⬜ |
 | Private vs Public IP | Address ranges | ⬜ |
 
-**📊 Private IP Ranges:**
+**Private IP Ranges:**
 
 | Class | Range | CIDR |
 |-------|-------|------|
@@ -285,7 +261,7 @@ fdisk -l        # Partition information
 | B | 172.16.0.0 – 172.31.255.255 | 172.16.0.0/12 |
 | C | 192.168.0.0 – 192.168.255.255 | 192.168.0.0/16 |
 
-**⏱️ Estimasi waktu:** 4-5 jam
+**Estimasi waktu:** 4-5 jam
 
 ---
 
@@ -298,7 +274,7 @@ fdisk -l        # Partition information
 | Port binding | Service-port association | ⬜ |
 | Port conflict | Kenapa satu port tidak bisa dipakai 2 service | ⬜ |
 
-**📊 Well-Known Ports:**
+**Well-Known Ports:**
 
 | Port | Service | Protocol |
 |------|---------|----------|
@@ -308,7 +284,7 @@ fdisk -l        # Partition information
 | 53 | DNS | TCP/UDP |
 | 25 | SMTP | TCP |
 
-**⏱️ Estimasi waktu:** 3-4 jam
+**Estimasi waktu:** 3-4 jam
 
 ---
 
@@ -322,7 +298,7 @@ fdisk -l        # Partition information
 | Traceroute | Path discovery | ⬜ |
 | Gateway | Network gateway concept | ⬜ |
 
-**🔧 Commands Penting:**
+**Commands Penting:**
 
 ```bash
 dig example.com           # DNS lookup
@@ -332,7 +308,7 @@ traceroute example.com    # Trace route
 ip route                  # Show routing table
 ```
 
-**⏱️ Estimasi waktu:** 4-5 jam
+**Estimasi waktu:** 4-5 jam
 
 ---
 
@@ -345,7 +321,7 @@ ip route                  # Show routing table
 | NAT | Network Address Translation | ⬜ |
 | Port forwarding | Redirect traffic | ⬜ |
 
-**🔧 UFW Quick Reference:**
+**UFW Quick Reference:**
 
 ```bash
 ufw enable                 # Enable firewall
@@ -356,13 +332,13 @@ ufw deny 23/tcp            # Deny Telnet
 ufw delete allow 80/tcp    # Remove rule
 ```
 
-**⏱️ Estimasi waktu:** 4-5 jam
+**Estimasi waktu:** 4-5 jam
 
 ---
 
 # BAGIAN III — INTEGRASI OS + NETWORKING
 
-> 🎯 **Goal:** Mengintegrasikan pengetahuan OS dan networking untuk build real-world server.
+> **Goal:** Mengintegrasikan pengetahuan OS dan networking untuk build real-world server.
 
 ---
 
@@ -374,7 +350,7 @@ ufw delete allow 80/tcp    # Remove rule
 | Open port 80 | Firewall configuration | ⬜ |
 | Reverse proxy | Proxy configuration | ⬜ |
 
-**🔧 Basic Nginx Setup:**
+**Basic Nginx Setup:**
 
 ```bash
 # Install
@@ -391,7 +367,7 @@ sudo ufw allow 'Nginx Full'
 curl http://localhost
 ```
 
-**⏱️ Estimasi waktu:** 3-4 jam
+**Estimasi waktu:** 3-4 jam
 
 ---
 
@@ -404,7 +380,7 @@ curl http://localhost
 | Hardening SSH | Security best practices | ⬜ |
 | Fail2ban | Brute-force protection | ⬜ |
 
-**🔒 SSH Hardening Checklist:**
+**SSH Hardening Checklist:**
 
 - [ ] Disable root login
 - [ ] Use key-based auth only
@@ -413,7 +389,7 @@ curl http://localhost
 - [ ] Install fail2ban
 - [ ] Use strong key algorithms
 
-**⏱️ Estimasi waktu:** 4-5 jam
+**Estimasi waktu:** 4-5 jam
 
 ---
 
@@ -425,7 +401,7 @@ curl http://localhost
 | journalctl | Systemd journal | ⬜ |
 | Analisis error | Troubleshooting | ⬜ |
 
-**📁 Important Log Files:**
+**Important Log Files:**
 
 | File | Deskripsi |
 |------|-----------|
@@ -434,17 +410,17 @@ curl http://localhost
 | `/var/log/nginx/access.log` | Nginx access |
 | `/var/log/nginx/error.log` | Nginx errors |
 
-**⏱️ Estimasi waktu:** 3-4 jam
+**Estimasi waktu:** 3-4 jam
 
 ---
 
 ## Bab 15 — Mini Project Final
 
-### 🎯 Objective
+### Objective
 
 Bangun server production-ready dengan semua komponen yang sudah dipelajari.
 
-### 📋 Requirements Checklist
+### Requirements Checklist
 
 | Komponen | Deskripsi | Status |
 |----------|-----------|--------|
@@ -455,7 +431,7 @@ Bangun server production-ready dengan semua komponen yang sudah dipelajari.
 | Domain + SSL | HTTPS dengan Let's Encrypt | ⬜ |
 | IDS sederhana | Suricata untuk intrusion detection | ⬜ |
 
-### 🏗️ Architecture
+### Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -489,11 +465,11 @@ Bangun server production-ready dengan semua komponen yang sudah dipelajari.
                └─────────────────────┘
 ```
 
-**⏱️ Estimasi waktu:** 8-10 jam
+**Estimasi waktu:** 8-10 jam
 
 ---
 
-## 📈 Progress Tracker
+## Progress Tracker
 
 ```
 Bagian I  [░░░░░░░░░░] 0%   (0/6 bab)
@@ -505,7 +481,7 @@ Total     [░░░░░░░░░░] 0%   (0/15 bab)
 
 ---
 
-## 🛠️ Environment Setup
+## Environment Setup
 
 ### Minimum Requirements
 
@@ -524,7 +500,7 @@ Total     [░░░░░░░░░░] 0%   (0/15 bab)
 
 ---
 
-## 📖 Referensi Utama
+## Referensi Utama
 
 ### Buku
 - *The Linux Command Line* - William Shotts
@@ -538,40 +514,14 @@ Total     [░░░░░░░░░░] 0%   (0/15 bab)
 
 ---
 
-## ✏️ Catatan
+## Catatan
 
-> Gunakan kolom status (⬜/✅) untuk melacak progress Anda!
-> 
-> - ⬜ = Belum dikerjakan
-> - 🔄 = Sedang dikerjakan
-> - ✅ = Selesai
-
----
-
-## 👤 Author
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│   Muhammad Dhiyaul Atha                                     │
-│   ─────────────────────                                     │
-│                                                             │
-│   📧 Connect with me:                                       │
-│   🔗 GitHub: github.com/dhiyaulatha                         │
-│                                                             │
-│   "The only way to learn is by doing."                      │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
+> Gunakan kolom status untuk melacak progress Anda:
+> - [ ] = Belum dikerjakan
+> - [~] = Sedang dikerjakan  
+> - [x] = Selesai
 
 ---
 
-<div align="center">
-
-**📘 Learning Notes Collection**
-
-Made with ❤️ by **Muhammad Dhiyaul Atha**
-
-*Last updated: Maret 2026*
-
-</div>
+**Penulis:** Muhammad Dhiyaul Atha  
+**GitHub:** [Bangkah](https://github.com/Bangkah)

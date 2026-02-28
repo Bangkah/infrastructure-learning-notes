@@ -1,26 +1,11 @@
 # BAB 1: APA ITU OPERATING SYSTEM
 
----
-
-```
-╔══════════════════════════════════════════════════════════════════════════╗
-║                                                                          ║
-║    ██████╗ ██╗  ██╗██╗██╗   ██╗ █████╗ ██╗   ██╗██╗                      ║
-║    ██╔══██╗██║  ██║██║╚██╗ ██╔╝██╔══██╗██║   ██║██║                      ║
-║    ██║  ██║███████║██║ ╚████╔╝ ███████║██║   ██║██║                      ║
-║    ██║  ██║██╔══██║██║  ╚██╔╝  ██╔══██║██║   ██║██║                      ║
-║    ██████╔╝██║  ██║██║   ██║   ██║  ██║╚██████╔╝███████╗                 ║
-║    ╚═════╝ ╚═╝  ╚═╝╚═╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚══════╝                 ║
-║                                                                          ║
-║    📚 Learning Notes by Muhammad Dhiyaul Atha                            ║
-║    📖 Bab 1: Apa Itu Operating System                                    ║
-║                                                                          ║
-╚══════════════════════════════════════════════════════════════════════════╝
-```
+**Penulis:** Muhammad Dhiyaul Atha  
+**GitHub:** [Bangkah](https://github.com/Bangkah)
 
 ---
 
-## 📑 DAFTAR ISI
+## Daftar Isi
 
 1. [Pendahuluan](#pendahuluan)
 2. [Definisi Operating System](#1-definisi-operating-system)
@@ -42,7 +27,7 @@
 
 Selamat datang di Bab 1 dari perjalanan belajar Operating System! Bab ini adalah fondasi yang akan membentuk pemahaman Anda tentang bagaimana komputer bekerja di level sistem. Sebelum Anda bisa menjadi sysadmin, DevOps engineer, atau backend developer yang handal, pemahaman mendalam tentang Operating System adalah **WAJIB**.
 
-### 🎯 Tujuan Pembelajaran
+### Tujuan Pembelajaran
 
 Setelah menyelesaikan bab ini, Anda akan mampu:
 1. Menjelaskan definisi dan fungsi utama Operating System
@@ -51,7 +36,7 @@ Setelah menyelesaikan bab ini, Anda akan mampu:
 4. Menjelaskan konsep System Call dan implementasinya
 5. Melakukan eksperimen praktis untuk membuktikan konsep-konsep teori
 
-### 📋 Prasyarat
+### Prasyarat
 
 - Komputer dengan OS Linux (Ubuntu/Debian direkomendasikan)
 - Pemahaman dasar command line
@@ -1682,7 +1667,7 @@ ps aux --sort=-%cpu | head -20
 
 ## TANTANGAN
 
-### Tantangan 1: Detective Mode 🔍
+### Tantangan 1: Detective Mode 
 
 **Level: Pemula**
 
@@ -1826,29 +1811,29 @@ Buat program C yang mengimplementasikan mini-shell dengan fitur:
 │                        RANGKUMAN BAB 1                              │
 ├─────────────────────────────────────────────────────────────────────┤
 │                                                                     │
-│  📌 OPERATING SYSTEM ADALAH:                                        │
+│   OPERATING SYSTEM ADALAH:                                        │
 │  • Perantara antara user dan hardware                              │
 │  • Pengelola resources (CPU, memory, I/O, storage)                 │
 │  • Penyedia abstraksi dan layanan umum                             │
 │                                                                     │
-│  📌 KERNEL VS USER SPACE:                                           │
+│   KERNEL VS USER SPACE:                                           │
 │  • Kernel Space (Ring 0): Akses penuh, bisa akses hardware         │
 │  • User Space (Ring 3): Terbatas, harus via system call            │
 │  • Pemisahan untuk keamanan dan stabilitas                         │
 │                                                                     │
-│  📌 CARA PROGRAM DIJALANKAN:                                        │
+│   CARA PROGRAM DIJALANKAN:                                        │
 │  • Source → Compile → Object → Link → Executable                   │
 │  • Executable di-load ke memory oleh loader                        │
 │  • Fork() untuk membuat proses baru                                │
 │  • Exec() untuk mengganti program                                  │
 │                                                                     │
-│  📌 SYSTEM CALL:                                                    │
+│   SYSTEM CALL:                                                    │
 │  • Satu-satunya cara legal mengakses kernel services               │
 │  • Melibatkan mode switch (overhead)                               │
 │  • Kategori: Process, File, Device, Info, Communication, Memory    │
 │  • Contoh: read(), write(), fork(), exec(), exit()                 │
 │                                                                     │
-│  📌 TOOLS PENTING:                                                  │
+│   TOOLS PENTING:                                                  │
 │  • strace - trace system calls                                     │
 │  • /proc - virtual filesystem untuk info proses                    │
 │  • ps, top, htop - monitor proses                                  │
@@ -1994,30 +1979,6 @@ Di bab selanjutnya, kita akan mempelajari:
 
 ---
 
-## 👤 Author
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│   Muhammad Dhiyaul Atha                                     │
-│   ─────────────────────                                     │
-│                                                             │
-│   📧 Connect with me:                                       │
-│   🔗 GitHub: github.com/dhiyaulatha                         │
-│                                                             │
-│   "The only way to learn is by doing."                      │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
-
----
-
-<div align="center">
-
-**📘 Learning Notes Collection**
-
-Made with ❤️ by **Muhammad Dhiyaul Atha**
-
-**Versi:** 1.0 | **Tanggal:** Maret 2026 | **Lisensi:** CC BY-SA 4.0
-
-</div>
+**Penulis:** Muhammad Dhiyaul Atha  
+**GitHub:** [Bangkah](https://github.com/Bangkah)  
+**Lisensi:** CC BY-SA 4.0
