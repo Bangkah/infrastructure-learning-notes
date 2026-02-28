@@ -21,10 +21,10 @@ Materi disusun secara sistematis dalam format tutorial dengan contoh praktis, st
 ### Bagian I — Fundamental Operating System
 1. [Apa Itu Operating System](Bab1_Apa_Itu_Operating_System.md)
 2. [Struktur Sistem Linux](Bab2_Struktur_Sistem_Linux.md)
-3. Process Management *(coming soon)*
-4. Permission & Security Dasar *(coming soon)*
-5. System Service & systemd *(coming soon)*
-6. File System & Disk *(coming soon)*
+3. [Process Management](Bab3_Process_Management.md)
+4. [Permission & Security Dasar](Bab4_Permission_Security_Dasar.md)
+5. [System Service & systemd](Bab5_System_Service_systemd.md)
+6. [File System & Disk](Bab6_File_System_Disk.md)
 
 ### Bagian II — Fundamental Networking
 7. Dasar Jaringan Komputer *(coming soon)*

@@ -101,6 +101,8 @@
 
 ## Bab 3 — Process Management
 
+**File:** [Bab3_Process_Management.md](Bab3_Process_Management.md)
+
 | Topik | Deskripsi | Status |
 |-------|-----------|--------|
 | PID | Process identification | ⬜ |
@@ -123,6 +125,8 @@
 ---
 
 ## Bab 4 — Permission & Security Dasar
+
+**File:** [Bab4_Permission_Security_Dasar.md](Bab4_Permission_Security_Dasar.md)
 
 | Topik | Deskripsi | Status |
 |-------|-----------|--------|
@@ -151,6 +155,8 @@ Execute    1        1         1
 ---
 
 ## Bab 5 — System Service & systemd
+
+**File:** [Bab5_System_Service_systemd.md](Bab5_System_Service_systemd.md)
 
 | Topik | Deskripsi | Status |
 |-------|-----------|--------|
@@ -181,6 +187,8 @@ journalctl --since "1 hour ago"
 ---
 
 ## Bab 6 — File System & Disk
+
+**File:** [Bab6_File_System_Disk.md](Bab6_File_System_Disk.md)
 
 | Topik | Deskripsi | Status |
 |-------|-----------|--------|
